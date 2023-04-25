@@ -1,0 +1,28 @@
+{
+  "name": "atproto",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "start": "tsx index.ts",
+    "env": "op run --env-file=\"./.env\" -- npm run dev"
+  },
+  "keywords": [],
+  "author": "Wes Bos (https://wesbos.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^3.12.6"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.2.9",
+    "@types/cli-box": "^6.0.1",
+    "@types/colors": "^1.2.1",
+    "@types/node": "^18.16.0",
+    "boxen": "^7.0.2",
+    "cli-box": "^6.0.10",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.6"
+  }
+}

@@ -1,0 +1,5 @@
+.env
+haters
+node_modules/
+.DS_Store
+session.json
