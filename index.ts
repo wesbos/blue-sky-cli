@@ -68,7 +68,7 @@ ${stats}
 }
 
 async function post() {
-  const rt = new RichText({ text: 'Hello from the Bluesky API. Code written by @wesbos.bsky.social' })
+  const rt = new RichText({ text: 'Hello from the Bluesky API. Code written by @wesbos.com' })
   await rt.detectFacets(agent) // automatically detects mentions and links
   const postRecord = {
     $type: 'app.bsky.feed.post',
