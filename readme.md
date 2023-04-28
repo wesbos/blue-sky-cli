@@ -1,10 +1,16 @@
 ## 🟦☁️ BlueSky CLI
 
-A little cLI app view your feed and post.
+This was a little CLI app view your feed and post, now I'm just using it as my playground for the AT protocol API.
 
-1. Make a `.env` file
-2. Put your `ATPROTO_USERNAME` and `ATPROTO_PASS` in there.
-3. run `npm run dev`
+So far it:
+
+1. Posts skeets
+2. Gets timeline in CLI
+3. Is a bot that replies to mentions and follows of the incorrect handle.
+
+4. Make a `.env` file
+5. Put your `ATPROTO_USERNAME` and `ATPROTO_PASS` in there.
+6. run `npm run dev`
 
 Kinda fun
 

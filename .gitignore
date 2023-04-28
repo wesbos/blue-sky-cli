@@ -3,3 +3,6 @@ haters
 node_modules/
 .DS_Store
 session.json
+people.json
+people-bakup.json
+.dev.vars

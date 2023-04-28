@@ -4,8 +4,10 @@
     "module": "NodeNext",
     "moduleResolution": "nodenext",
     "strict": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true, // Enable interoperability with CommonJS modules
     "resolveJsonModule": true, // Enable importing JSON modules
+    "types": ["@cloudflare/workers-types"]
   },
   "include": ["./**/*"], // Specify the files to include in compilation
   "exclude": ["node_modules", "dist"] // Specify the files to exclude from compilation
