@@ -9,7 +9,7 @@ So far it:
 3. Is a bot that replies to mentions and follows of the incorrect handle.
 
 4. Make a `.env` file
-5. Put your `ATPROTO_USERNAME` and `ATPROTO_PASS` in there.
+5. Put your `BSKY_USERNAME` and `BSKY_USERNAME` in there.
 6. run `npm run dev`
 
 Kinda fun
